@@ -1,4 +1,4 @@
-Experiment name: random_thr_mmt_0.8
+Experiment name: random_thr_mmt_0.4
 
 Number of hosts: 50
 
@@ -6,44 +6,42 @@ Number of VMs: 50
 
 Total simulation time: 86400.00 sec
 
-Energy consumption: 41.81 kWh
+Energy consumption: 59.80 kWh
 
-Number of VM migrations: 4839
+Number of VM migrations: 5648
 
-SLA: 0.03048%
+SLA: 0.01155%
 
-SLA perf degradation due to migration: 0.23%
+SLA perf degradation due to migration: 0.22%
 
-SLA time per active host: 12.99%
+SLA time per active host: 5.26%
 
-Overall SLA violation: 3.25%
+Overall SLA violation: 0.44%
 
-Average SLA violation: 12.81%
+Average SLA violation: 10.20%
 
-Number of host shutdowns: 1424
+Number of host shutdowns: 1336
 
-Mean time before a host shutdown: 929.70 sec
+Mean time before a host shutdown: 1511.01 sec
 
-StDev time before a host shutdown: 1348.87 sec
+StDev time before a host shutdown: 1902.76 sec
 
-Mean time before a VM migration: 16.82 sec
+Mean time before a VM migration: 16.86 sec
 
-StDev time before a VM migration: 7.67 sec
+StDev time before a VM migration: 7.66 sec
 
-Execution time - VM selection mean: 0.00008 sec
+Execution time - VM selection mean: 0.00011 sec
 
-Execution time - VM selection stDev: 0.00028 sec
+Execution time - VM selection stDev: 0.00032 sec
 
-Execution time - host selection mean: 0.00044 sec
+Execution time - host selection mean: 0.00046 sec
 
-Execution time - host selection stDev: 0.00052 sec
+Execution time - host selection stDev: 0.00053 sec
 
-Execution time - VM reallocation mean: 0.00091 sec
+Execution time - VM reallocation mean: 0.00237 sec
 
-Execution time - VM reallocation stDev: 0.00090 sec
+Execution time - VM reallocation stDev: 0.00177 sec
 
-Execution time - total mean: 0.00375 sec
+Execution time - total mean: 0.00683 sec
 
-Execution time - total stDev: 0.00818 sec
-
-
+Execution time - total stDev: 0.01330 sec
